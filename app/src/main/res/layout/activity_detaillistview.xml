@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1c62ca31"
+    tools:context="com.example.project.detaillistview">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ming_back"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/ic_action_name" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="25sp"
+                android:text="明 细"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                android:gravity="center" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.6"
+        android:background="#3d3d3d" />
+    <ListView
+        android:id="@+id/lv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>
